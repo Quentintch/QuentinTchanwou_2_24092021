@@ -376,7 +376,7 @@ input[type="submit"]{
 }
 
 #filters li:hover{
-    box-shadow: 2px 1px 10px #F2F2F2 inset;
+    box-shadow: 2px 1px 10px #dfdfdf inset;
 }
 
 #filters a{
