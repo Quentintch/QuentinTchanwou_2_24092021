@@ -2,51 +2,6 @@
 
 /*Images de section-two*/
 
-#section-two .container {
-    flex-direction: row;
-}
-
-#marcus-loke{
-    background: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-    background-size: cover;
-    background-position: 0px;
-}
-
-#annie-spratt{
-    background: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-}
-
-#aw-creative{
-    background: url("images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg");
-    background-position: -19px;
-    background-size: cover;
-}
-
-#emile-guillemot{
-    background: url("images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-    background-position: -26px;
-    background-size: cover;
-}
-
-#febrian-zakaria-M6{
-    background: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-}
-
-#febrian-zakarie-sj{
-    background: url("images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-}
-
-#fred-kleber{
-    background: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-}
-
-#nicate-lee{
-    background: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-}
-
-#reisetopia{
-    background: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-}
 
 
 /*Images de section-three*/
@@ -67,20 +22,12 @@
     background: url("images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 }
 
-#paul-hermann{
-    background: url("images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-}
-
-#reno-laithienne{
-    background: url("images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-}
-
-#fred-kleber, #annie-spratt, #reisetopia, #kevin-hikari,
+/*#fred-kleber, #reisetopia, #kevin-hikari,
 #febrian-zakaria-M6,#nicate-lee,#febrian-zakarie-sj
 ,#reno-laithienne,#paul-hermann,#kilyan-sockalingum,#florian-wehde,#lena-paulin{
     background-size: cover;
     background-position: 0px;
-}
+}*/
 
 /* Polices, Corps et marges*/
 
@@ -132,12 +79,8 @@ body{
 
 /*images*/
 
-.round-in-top{
-    border-radius: 15px 15px 0px 0px;
-}
-
-.round-in-left{
-    border-radius: 15px 0px 0px 15px;
+.image{
+    position: relative;
 }
 
 /*textes*/
@@ -197,8 +140,10 @@ figure{
     margin: 0px;
     height: 100%;
     background-color: #FFF;
-    border-radius: 17px;
+    border-radius: 19px;
     box-shadow: 1px 2px 8px #DDD;
+    overflow: hidden;
+    position: relative;
 }
 
 /* Sections */
@@ -417,12 +362,13 @@ input[type="submit"]{
 
 #section-two .container{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin-bottom: 38px;
 }
 
 #section-two figure{
-    padding: 3px;
+    border: 3.1px solid #fff;
 }
 
 figcaption{
@@ -430,6 +376,10 @@ figcaption{
     flex-direction: column;
     justify-content: space-around;
     padding: 0px 10px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #fff;
+    width: 100%;
 }
 
 figcaption p{
@@ -467,11 +417,23 @@ figcaption p{
 }
 
 #accommodation .image{
-    flex:3 ;
+    bottom: 17px;
+}
+
+#accommodation #annie-spratt{
+    bottom: 39px;
+}
+
+#accommodation #nicate-lee{
+    bottom: 8px;
+}
+
+#accommodation #febrian-zakaria-M6{
+    bottom: 87px;
 }
 
 #accommodation figcaption{
-    flex: 2;
+    height: 51px;
 }
 
 #accommodation figcaption h3{
@@ -508,9 +470,18 @@ figcaption p{
     height: 95px;
 }
 
-#most-famous .image{
-    flex: 2.2;
-} 
+#emile-guillemot{
+    right: 26px;
+}
+
+#aw-creative{
+    right: 19px;
+}
+
+#febrian-zakarie-sj{
+    height: 132px;
+    bottom: 19px;
+}
 
 #most-famous .results-bloc a:last-child{
     margin-bottom: 0px;
@@ -524,7 +495,9 @@ figcaption p{
 #most-famous figcaption{
     justify-content: flex-start;
     padding: 7px 11px 7px 14px;
-    flex: 3;
+    right: 0px;
+    height: 100%;
+    width: 119px;
 }
 
 #most-famous figcaption h3{
@@ -592,9 +565,13 @@ a[title="Hôtel Tout bleu et Blanc"] figure figcaption .stars i:nth-child(5){
     border-radius: 15px;
 }
 
+#section-three .image{
+    position: relative;
+}
+
 #reno-laithienne{
-    background-size: 213%;
-    background-position: -125px 0px;
+    width: 457px;
+    right: 125px;
 }
 
 a[title="Fort de Pomègues"]{
@@ -602,8 +579,7 @@ a[title="Fort de Pomègues"]{
 }
 
 #paul-hermann{
-    background-position-y: -80px;
-    background-size: cover;
+    bottom: 81px;
 }
 
 a[title="Îles du Frioul"]{
@@ -639,10 +615,6 @@ a[title="Parc Longchamp"]{
 
 #section-three a:nth-child(3n+1){
     height: 100%;
-}
-
-#section-three .image{
-    flex: 1;
 }
 
 #section-three figcaption{
@@ -1041,7 +1013,6 @@ footer li{
         padding: 0px 5%;
         width: fit-content;
         z-index: 2;
-        
     }
 
     form i{
@@ -1139,7 +1110,7 @@ footer li{
     }
 
     #section-two figure{
-        padding: 4px;
+        border: 4px solid #fff;
         border-radius: 21px;
     }
     
