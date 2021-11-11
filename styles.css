@@ -6,10 +6,6 @@
 
 /*Images de section-three*/
 
-#lena-paulin{
-    background: url("images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-}
-
 /*#fred-kleber, #reisetopia, #kevin-hikari,
 #febrian-zakaria-M6,#nicate-lee,#febrian-zakarie-sj
 ,#reno-laithienne,#paul-hermann,#kilyan-sockalingum,#florian-wehde,#lena-paulin{
@@ -421,7 +417,7 @@ figcaption p{
 }
 
 #accommodation figcaption{
-    height: 51px;
+    height: 40%;
 }
 
 #accommodation figcaption h3{
@@ -481,11 +477,10 @@ figcaption p{
 }
 
 #most-famous figcaption{
-    justify-content: flex-start;
     padding: 7px 11px 7px 14px;
     right: 0px;
     height: 81px;
-    width: 119px;
+    width: 51.5%;
 }
 
 #most-famous figcaption h3{
@@ -683,37 +678,34 @@ footer li{
         width: 163px;
     }
 
+    #section-three figcaption{
+        width: 145px;
+    }
+
     #florian-wehde{
-        background: url("images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-        background-size: cover;
+        bottom: 0px;
     }
 
     #kevin-hikari{
-        background: url("images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-        background-size: cover;
+        bottom: 0px;
     }
 
     #kilyan-sockalingum{
-        background: url("images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-        background-size: cover;
-        background-position-x: -120px;
+        width: 404px;
+        right: 120px;
     }
 
     #lena-paulin{
-        background: url("images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-        background-size: cover;
+        bottom: 0px;
     }
 
     #paul-hermann{
-        background: url("images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-        background-size: cover;
-        background-position: -163px -40px;
+        bottom: 40px;
     }
 
     #reno-laithienne{
-        background: url("images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-        background-size: cover;
-        background-position-x: -125px;
+        width: 403px;
+        right: 126px;
     }
 
 }
@@ -773,6 +765,22 @@ footer li{
         height: 138px;
     }
 
+    #accommodation .image{
+        bottom: 38px;
+    }
+
+    #accommodation #annie-spratt{
+        bottom: 71px;
+    }
+
+    #accommodation #nicate-lee {
+        bottom: 26px;
+    }
+
+    #accommodation #febrian-zakaria-M6 {
+        bottom: 138px;
+    }
+
     /*most-famous*/
 
     #most-famous{
@@ -804,7 +812,7 @@ footer li{
 
     /*Images*/
 
-    #aw-creative{
+    /*#aw-creative{
         background: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
         background-size: cover;
         background-position: -19px;
@@ -820,7 +828,7 @@ footer li{
         background: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
         background-size: cover;
         background-position-y: -20px;
-    }
+    }*/
 
 
     /*SECTION-THREE*/
@@ -836,6 +844,10 @@ footer li{
         width: 97%;
     }
 
+    #section-three figcaption {
+        width: 100%;
+    }
+
     #section-three a, #section-three a:nth-child(3n+1){
         height: 132px;
         width: 235px;
@@ -844,27 +856,39 @@ footer li{
     /*Images*/
 
     #florian-wehde{
-        background-position-y: -10px;
+        width: 100%;
+        left: 0px;
+        bottom: 10px;
     }
 
     #kevin-hikari{
-        background-position-y: -12px;
+        width: 100%;
+        left: 0px;
+        bottom: 12px;
     }
 
     #kilyan-sockalingum{
-        background-position: 0px -12px;
+        width: 100%;
+        left: 0px;
+        bottom: 12px;
     }
 
     #lena-paulin{
-        background-position-y: -22px;
+        width: 100%;
+        left: 0px;
+        bottom: 22px;
     }
 
     #paul-hermann{
-        background-position: 0px -111px;
+        width: 100%;
+        left: 0px;
+        bottom: 111px;
     }
 
     #reno-laithienne{
-        background-position: 0px -12px;
+        width: 100%;
+        left: 0px;
+        bottom: 12px;
     }
 
 }
