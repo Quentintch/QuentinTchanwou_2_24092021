@@ -416,6 +416,7 @@ figcaption p{
 
 #most-famous{
     flex: 1.5;
+    width: 25%;
 }
 
 #most-famous-header{
@@ -661,7 +662,7 @@ footer li{
     #most-famous{
         flex: 2.4;
         padding: 23px;
-        height: fit-content;
+        height: initial;
     }
 
     /*SECTION-THREE*/
@@ -773,6 +774,7 @@ footer li{
 
     #most-famous{
         padding: 26px;
+        width: initial;
     }
 
     #most-famous-header{
