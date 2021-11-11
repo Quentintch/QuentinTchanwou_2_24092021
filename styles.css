@@ -6,18 +6,6 @@
 
 /*Images de section-three*/
 
-#florian-wehde{
-    background: url("images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-}
-
-#kevin-hikari{
-    background: url("images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-}
-
-#kilyan-sockalingum{
-    background: url("images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-}
-
 #lena-paulin{
     background: url("images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 }
@@ -587,12 +575,12 @@ a[title="Îles du Frioul"]{
 }
 
 #kevin-hikari{
-    background-position-y: 131px;
+    bottom: 12px;
 }
 
 #kilyan-sockalingum{
-    background-position: -126px -3px;
-    background-size: 218%;
+    width: 461px;
+    right: 124px;
 }
 
 a[title="Notre-Dame-de-la-Garde"]{
@@ -600,8 +588,7 @@ a[title="Notre-Dame-de-la-Garde"]{
 }
 
 #florian-wehde{
-    background-position-y: -3px;
-    background-size: cover;
+    bottom: 3px;
 }
 
 a[title="Parc Longchamp"]{
@@ -609,8 +596,7 @@ a[title="Parc Longchamp"]{
 }
 
 #lena-paulin{
-    background-position-y: -10px;
-    background-size: cover;
+    bottom: 10px;
 }
 
 #section-three a:nth-child(3n+1){
