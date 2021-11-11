@@ -1,18 +1,5 @@
 /* Mise en page pour écran d'ordinateur */
 
-/*Images de section-two*/
-
-
-
-/*Images de section-three*/
-
-/*#fred-kleber, #reisetopia, #kevin-hikari,
-#febrian-zakaria-M6,#nicate-lee,#febrian-zakarie-sj
-,#reno-laithienne,#paul-hermann,#kilyan-sockalingum,#florian-wehde,#lena-paulin{
-    background-size: cover;
-    background-position: 0px;
-}*/
-
 /* Polices, Corps et marges*/
 
 @font-face{
@@ -400,6 +387,8 @@ figcaption p{
     height: 128px;
 }
 
+/*images*/
+
 #accommodation .image{
     bottom: 17px;
 }
@@ -415,6 +404,8 @@ figcaption p{
 #accommodation #febrian-zakaria-M6{
     bottom: 87px;
 }
+
+/*description*/
 
 #accommodation figcaption{
     height: 40%;
@@ -454,6 +445,17 @@ figcaption p{
     height: 95px;
 }
 
+#most-famous .results-bloc a:last-child{
+    margin-bottom: 0px;
+}
+
+#most-famous .results-bloc figure{
+    flex-direction: row;
+    width: 100%;
+}
+
+/*images*/
+
 #emile-guillemot{
     right: 26px;
 }
@@ -467,14 +469,7 @@ figcaption p{
     bottom: 19px;
 }
 
-#most-famous .results-bloc a:last-child{
-    margin-bottom: 0px;
-}
-
-#most-famous .results-bloc figure{
-    flex-direction: row;
-    width: 100%;
-}
+/*description*/
 
 #most-famous figcaption{
     padding: 7px 11px 7px 14px;
@@ -548,6 +543,16 @@ a[title="Hôtel Tout bleu et Blanc"] figure figcaption .stars i:nth-child(5){
     border-radius: 15px;
 }
 
+#section-three a:nth-child(3n+1){
+    height: 100%;
+}
+
+#section-three figcaption{
+    min-height: 38px;
+}
+
+/*images*/
+
 #section-three .image{
     position: relative;
 }
@@ -593,15 +598,6 @@ a[title="Parc Longchamp"]{
 #lena-paulin{
     bottom: 10px;
 }
-
-#section-three a:nth-child(3n+1){
-    height: 100%;
-}
-
-#section-three figcaption{
-    min-height: 38px;
-}
-
 
 /*FOOTER*/
 
@@ -681,6 +677,8 @@ footer li{
     #section-three figcaption{
         width: 145px;
     }
+
+    /*images*/
 
     #florian-wehde{
         bottom: 0px;
@@ -769,6 +767,8 @@ footer li{
         bottom: 38px;
     }
 
+    /*images*/
+
     #accommodation #annie-spratt{
         bottom: 71px;
     }
@@ -814,27 +814,6 @@ footer li{
         height: 79px;
     }
 
-    /*Images*/
-
-    /*#aw-creative{
-        background: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-        background-size: cover;
-        background-position: -19px;
-    }
-
-    #emile-guillemot{
-        background: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-        background-size: cover;
-        background-position: -26px;
-    }
-
-    #febrian-zakarie-sj{
-        background: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-        background-size: cover;
-        background-position-y: -20px;
-    }*/
-
-
     /*SECTION-THREE*/
 
     #section-three .container{
@@ -857,7 +836,7 @@ footer li{
         width: 235px;
     }
 
-    /*Images*/
+    /*images*/
 
     #section-three .image{
         width: 100%;
@@ -1152,7 +1131,7 @@ footer li{
         }
     }
 
-    /*Image*/
+    /*image*/
 
     #aw-creative{
         height: 100%;
@@ -1193,7 +1172,7 @@ footer li{
         font-size: 16px;
     }
 
-    /*Images*/
+    /*images*/
 
     #accommodation .image{
         bottom: 82px;
@@ -1217,7 +1196,7 @@ footer li{
         }
 
         #accommodation #annie-spratt{
-            bottom: 167px;
+            bottom: 92px;
         }
 
         #accommodation #nicate-lee{
@@ -1225,7 +1204,7 @@ footer li{
         }
 
         #accommodation #febrian-zakaria-M6{
-            bottom: 277px;
+            bottom: 180px;
         }
     }
 
@@ -1259,7 +1238,7 @@ footer li{
         border-radius: 19px 19px 0px 0px;
     }
     
-    /*Images*/
+    /*images*/
 
     #section-three #kevin-hikari{
         bottom: 23px;
@@ -1295,12 +1274,6 @@ footer li{
         }
     }
 
-    @media screen and (max-width:321px){
-        #accommodation .image{
-            width: 150%;
-        }
-    }
-
     /*FOOTER*/
 
     footer .container{
@@ -1326,5 +1299,3 @@ footer li{
     }
 
 }
-
-
