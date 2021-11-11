@@ -131,10 +131,6 @@ header .container{
     height: 60%;
 }
 
-#signup-mobile{
-    display: none;
-}
-
 /*logo*/
 
 #logo{
@@ -165,7 +161,7 @@ header li{
     flex: 1;
 }
 
-#signup-desktop{
+header li:nth-child(3) a{
     color: #0065FC;
     font-weight: bold;
 }
@@ -916,21 +912,6 @@ footer li{
         width: 85px;
     }
 
-    /*inscription*/
-
-    #signup-desktop{
-        display: none;
-    }
-
-    #signup-mobile{
-        display: inline;
-        align-self: flex-end;
-        text-align: center;
-        width: 29%;
-        color: #0065FC;
-        font-weight: bold;
-    }
-
     /*Menu de navigation*/
     
     header nav{
@@ -938,25 +919,37 @@ footer li{
         margin-bottom: 20px;
     }
 
+    header li:nth-child(-n+2){
+        flex:1;
+    }
+
     header li a{
         border-top: none;
-        border-bottom: 3px solid #F2F2F2;
         padding-bottom: 8px;
         height: 38px;
     }
 
-    header li a:hover{
+    header li:nth-child(-n+2) a{
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    header li:nth-child(-n+2) a:hover{
         border-top: none;
-        border-bottom: 3px solid #0065FC;;
+        border-bottom: 3px solid #0065FC;
     }
 
-    header ul li:nth-child(3){
+    header li:nth-child(3){
         flex:0;
+        position: absolute;
+        top: 8px;
+        right: 30px;
     }
 
-    header ul li:nth-child(-n+2){
-        flex:1;
+    header li:nth-child(3) a:hover{
+        border-top: none;
     }
+
+    
 
     /*SECTION-ONE*/
 
