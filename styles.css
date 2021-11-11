@@ -161,11 +161,6 @@ header li{
     flex: 1;
 }
 
-header li:nth-child(3) a{
-    color: #0065FC;
-    font-weight: bold;
-}
-
 header li a{
     display: flex;
     justify-content: center;
@@ -173,6 +168,11 @@ header li a{
     border-top: 1px solid #FFF;
     height: 100%;
     width: 100%;
+}
+
+header li:nth-child(3) a{
+    color: #0065FC;
+    font-weight: bold;
 }
 
 header li a:hover{
@@ -676,21 +676,13 @@ footer li{
 
     /*images*/
 
-    #florian-wehde{
-        bottom: 0px;
-    }
-
-    #kevin-hikari{
+    #kevin-hikari, #lena-paulin, #florian-wehde{
         bottom: 0px;
     }
 
     #kilyan-sockalingum{
         width: 404px;
         right: 120px;
-    }
-
-    #lena-paulin{
-        bottom: 0px;
     }
 
     #paul-hermann{
@@ -1225,10 +1217,6 @@ footer li{
 
     #section-three figcaption{
         min-height: 50px;
-    }
-
-    .round-in-top{
-        border-radius: 19px 19px 0px 0px;
     }
     
     /*images*/
