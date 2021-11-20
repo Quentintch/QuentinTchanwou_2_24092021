@@ -1130,8 +1130,8 @@ footer li{
     }
 
     #febrian-zakarie-sj{
-        height: 147%;
-        bottom: 29px;
+        height: 168%;
+        bottom: 50px;
     }
 
     /*accommodation*/
@@ -1192,6 +1192,11 @@ footer li{
 
         #accommodation #febrian-zakaria-M6{
             bottom: 180px;
+        }
+
+        #febrian-zakarie-sj{
+            height: 147%;
+            bottom: 29px;
         }
     }
 
