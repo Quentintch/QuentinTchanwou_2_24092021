@@ -1,16 +1,13 @@
 # QuentinTchanwou_2_24092021
 Projet 2: Transformez une maquette en site web
 
-La chouette agence est une grande agence de webdesign à Lyon.
+Reservia est un outil de planification de vacances en ligne. 
 
 La page Github contient:
 
- - 2 Pages HTML
+ - Page HTML
  - Fichier de style CSS
  - Des images
- - Des fichiers Javascript
- - Un fichier PHP
- - Des polices d'écriture
+ - La police d'écriture Raleway
 
-Voici le lien URL de la page: 
-
+Voici le lien URL de la page: https://quentintch.github.io/QuentinTchanwou_2_24092021/
